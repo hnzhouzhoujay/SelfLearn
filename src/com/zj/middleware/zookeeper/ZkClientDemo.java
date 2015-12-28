@@ -22,7 +22,7 @@ public class ZkClientDemo {
 		}
 	}
 	public void provider(String servicename){
-		String server="192.168.237.131:2181";
+		String server="192.168.237.139:2181";
 		String ROOT="/configcenter";
 		ZkClient zkclient=new ZkClient(server);
 		if(!zkclient.exists(ROOT)){

@@ -16,7 +16,7 @@ public class ZookeeperDemo {
 		new ZookeeperDemo().publishNode();
 	}
 	public void publishNode(){
-		String url="192.168.237.131:2181";
+		String url="192.168.237.139:2181";
 		try {
 			CountDownLatch countDownLatch=new CountDownLatch(1);
 			ZKWatcher watcher=new ZKWatcher(countDownLatch);
@@ -26,10 +26,10 @@ public class ZookeeperDemo {
 			String actualPath=zookeeper.create("/root", "root hello".getBytes(), Ids.OPEN_ACL_UNSAFE, CreateMode.EPHEMERAL);
 			System.out.println(actualPath);
 			Stat stat=new Stat();
-			byte[] before=zookeeper.getData("/root", false, stat);
+			byte[] before=zookeeper.getData("/root", true, stat);
 			System.out.println(new String(before));
 			zookeeper.setData("/root", "welcom".getBytes(), -1);
-			byte[] data=zookeeper.getData("/root", false, stat);
+			byte[] data=zookeeper.getData("/root", true, stat);
 			System.out.println(new String(data));
 			
 			zookeeper.delete("/root", -1);

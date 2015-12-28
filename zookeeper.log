@@ -1,0 +1,61 @@
+2015-12-24 16:01:40,143 WARN  server.NIOServerCnxn - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2015-12-24 16:01:40,260 ERROR zookeeper.LeaderElection - org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /GroupMembers
+2015-12-24 16:01:41,083 ERROR zookeeper.ClientCnxn - Error while calling watcher 
+java.lang.NullPointerException
+	at com.zj.middleware.zookeeper.LeaderElection.process(LeaderElection.java:74)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2015-12-24 16:01:41,098 ERROR zookeeper.LeaderElection - org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /GroupMembers/leader
+2015-12-24 16:01:41,123 ERROR zookeeper.LeaderElection - org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /GroupMembers/leader
+2015-12-24 16:02:18,602 ERROR zookeeper.ClientCnxn - Error while calling watcher 
+java.lang.NullPointerException
+	at com.zj.middleware.zookeeper.LeaderElection.process(LeaderElection.java:74)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2015-12-24 16:02:18,625 ERROR zookeeper.LeaderElection - org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /GroupMembers/leader
+2015-12-24 16:02:18,980 WARN  server.NIOServerCnxn - Exception causing close of session 0x151d301f72f0001 due to java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+2015-12-24 16:03:39,256 ERROR zookeeper.ClientCnxn - Error while calling watcher 
+java.lang.NullPointerException
+	at com.zj.middleware.zookeeper.LeaderElection.process(LeaderElection.java:74)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2015-12-24 16:03:39,274 ERROR zookeeper.LeaderElection - org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /GroupMembers/leader
+2015-12-24 16:03:45,566 ERROR zookeeper.ClientCnxn - Error while calling watcher 
+java.lang.NullPointerException
+	at com.zj.middleware.zookeeper.LeaderElection.process(LeaderElection.java:74)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2015-12-24 16:03:51,011 ERROR zookeeper.ClientCnxn - Error while calling watcher 
+java.lang.NullPointerException
+	at com.zj.middleware.zookeeper.LeaderElection.process(LeaderElection.java:74)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2015-12-24 16:03:51,023 ERROR zookeeper.LeaderElection - org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /GroupMembers/leader
+2015-12-24 16:03:58,128 ERROR zookeeper.ClientCnxn - Error while calling watcher 
+java.lang.NullPointerException
+	at com.zj.middleware.zookeeper.LeaderElection.process(LeaderElection.java:74)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2015-12-24 16:14:00,288 ERROR zookeeper.ClientCnxn - Error while calling watcher 
+java.lang.NullPointerException
+	at com.zj.middleware.zookeeper.LeaderElection.process(LeaderElection.java:74)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2015-12-24 16:14:00,323 ERROR zookeeper.LeaderElection - org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /GroupMembers/leader
+2015-12-24 16:14:08,051 ERROR zookeeper.ClientCnxn - Error while calling watcher 
+java.lang.NullPointerException
+	at com.zj.middleware.zookeeper.LeaderElection.process(LeaderElection.java:74)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2015-12-24 16:14:18,340 ERROR zookeeper.ClientCnxn - Error while calling watcher 
+java.lang.NullPointerException
+	at com.zj.middleware.zookeeper.LeaderElection.process(LeaderElection.java:74)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2015-12-24 16:14:18,370 ERROR zookeeper.LeaderElection - org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /GroupMembers/leader
+2015-12-24 16:14:32,223 ERROR zookeeper.ClientCnxn - Error while calling watcher 
+java.lang.NullPointerException
+	at com.zj.middleware.zookeeper.LeaderElection.process(LeaderElection.java:74)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2015-12-24 16:14:32,233 ERROR zookeeper.LeaderElection - org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /GroupMembers/leader
